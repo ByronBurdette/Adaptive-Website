@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!--
+        CGS1820
+        
+        Final Project
+
+        Author: Byron Burdette
+        Date: 08/05/2015
+
+        File name: items.html
+        
+        Supporting files: project.css
+                          skyrimHeader.png
+                          skyrimLogo.png
+                          Steel_Plate_Cuirass.gif
+                          Thieves_Guild_Armor.gif
+                          Weapons.gif
+                          chest.gif
+                    
+    -->
+    
+    <title>Skyrim Overview: Items</title>
+    <meta charset="utf-8">
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script>
+        var ADAPT_CONFIG = {
+        path: 'assets/css/',
+        dynamic: true,
+        range:
+            [
+            '0px    to 760px  = mobile.css',
+            '760px  to 980px  = 720.css',
+            '980px  to 1280px = 960.css',
+            '1280px to 1600px = 1200.css',
+            '1600px to 1920px = 1560.css',
+            '1920px           = fluid.css'
+            ]
+};
+    </script>
+    
+    <script src="assets/js/adapt.js"></script>    
+</head>
+
+
+<body>
+    <div id="wrapper">
+    <div class="weapons">
+    
+    
+    
+<!--    PAGE HEADING    -->    
+        <header>
+            <h1><img id="logo" src="assets/images/skyrimLogo.png" alt="Skyrim Logo" width="150" height="275">
+                <img id="logo2" src="assets/images/skyrimHeader.png" alt="The Elder Scrolls V: Skyrim" width="700" height="209"></h1>
+        </header>
+        
+        
+        
+<!--    MAIN NAVIGATION    -->        
+        <nav>
+            <ul>
+                <li id="roundLeftBorder"><a href="index.html">Home</a></li
+                ><li><a href="gameplay.html">Gameplay</a></li
+                ><li><a href="characters.html">Characters</a></li
+                ><li id="roundRightBorder"><a href="items.html" class="currentPage">Items</a></li>
+            </ul>
+        </nav>
+        
+        
+        
+<!--    MAIN CONTENT    -->        
+        <main>
+        
+            <h2 id="lower1stHeader">Armor</h2>
+        
+                <p>
+                    Armor is a type of apparel worn on the body to reduce incoming physical damage. In addition to offering protection from physical attacks,
+                    armor can be enchanted to grant additional types of protection, to bolster certain skills, or to increase stats such as Stamina, Health
+                    and Magic. Armor comes in several pieces which can be equipped independently of each other; these pieces are: 
+                </p>
+                
+                <ul>
+                    <li><span class="highlight">Armor</span>: covers your legs, chest and shoulders</li>
+                        
+                    <li><span class="highlight">Boots</span>: covers your feet and ankles</li>
+                        
+                    <li><span class="highlight">Gauntlets</span>: covers your hands up to your elbow</li>
+                        
+                    <li><span class="highlight">Helmet</span>: covers your head</li>
+                        
+                    <li><span class="highlight">Shield</span>: protect and block attacks</li>
+                </ul>
+                
+                <p>
+                    Beyond the different pieces, armor is broken up into two main types, Heavy Armor and Light Armor, both with their own associated 
+                    <a href="gameplay.html#skills">skill trees</a>. The two types are further broken up by several different materials and styles, which
+                    determine the quality of the armor. Higher quality armor provides better protection (but is generally heavier). Each of the two types of
+                    armor come with their own advantages and disadvantages.
+                    
+                </p>
+                
+                <table>
+                    <tr>
+                        <td><img class="armor imgBorder" src="assets/images/Steel_Plate_Cuirass.gif" alt="Steel Plate Cuirass" width="137" height="135"></td>
+                        <td>Heavy Armor offers far greater protection from physical attacks, but at the cost of producing more noise,
+                            making stealth more difficult, and a higher weight which reduces the player's movement speed.
+                            <ul class="displayInline armorInline removePadding">
+                                <li>Iron</li>
+                                <li>Banded Iron</li>
+                                <li>Bonemold</li>
+                                <li>Steel</li>
+                                <li>Dwaven</li>
+                                <li>Steel Plate</li>
+                                <li>Nordic</li>
+                                <li>Orcish</li>
+                                <li>Ebony</li>
+                                <li>Dragonplate</li>
+                                <li>Daedric</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><img class="armor imgBorder" src="assets/images/Thieves_Guild_Armor.gif" alt="Leather Armor" width="137" height="110"></td>
+                        <td>While Light Armor provides less protection, it is far lighter which allows the player to move at a normal speed,
+                            reduces the stamina cost of sprinting and produces far less noise, making it ideal for stealth. 
+                            <ul class="displayInline armorInline removePadding">
+                                <li>Fur</li>
+                                <li>Hide</li>
+                                <li>Studded</li>
+                                <li>Leather</li>
+                                <li>Chitin</li>
+                                <li>Elven</li>
+                                <li>Scaled</li>
+                                <li>Elven Gilded</li>
+                                <li>Stalhrim</li>
+                                <li>Glass</li>
+                                <li>Dragonscale</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                
+                
+            <h2 class="topicHeader">Weapons</h2>
+            
+                <p>
+                    
+                    Weapons are the primary tool for dealing physical damage. They are essential tools of survival in Skyrim, and can be bought, looted,
+                    stolen, forged, or received as a reward. Skyrim offers a diverse range of weapon types which can be produced at different qualities. In
+                    Skyrim, weapons are broken up into three categories where they are governed by separate skills; <a href="gameplay.html#skills">One-Handed</a>,
+                    <a href="gameplay.html#skills">Two-Handed</a> and <a href="gameplay.html#skills">Archery</a>.
+                </p>
+                
+                <ul>
+                    <li><span class="highlight">Daggers</span>: the fastest of the one-handed weapons, but deal the least damage. They also
+                                                                receive bonuses when attacking while undetected.</li>
+                        
+                    <li><span class="highlight">Maces</span>: the slowest of the one-handed weapons, but deal the most damage.</li>
+                        
+                    <li><span class="highlight">Swords</span>: slightly slower than daggers, but deal more damage, though swords are faster and
+                                                               weaker than maces and axes..</li>
+                        
+                    <li><span class="highlight">Axes</span>: slower than swords, but deal more damage. They are faster than maces but deal less
+                                                             base damage.</li>
+                        
+                    <li><span class="highlight">Battleaxes</span>: requiring two hands, they are slower than greatswords, but deal more damage. They are
+                                                                   faster than warhammers but deal less damage.</li>
+                        
+                    <li><span class="highlight">Greatswords</span>: the fastest of the two-handed weapons, but deal the least damage.</li>
+                        
+                    <li><span class="highlight">Warhammers</span>: the slowest of the two-handed weapons, but deal the most base damage.</li>
+                        
+                    <li><span class="highlight">Bows</span>: the most common ranged weapon with many types varying in damage, arrow speed, weight, fire rate,
+                                                             and value.</li>
+                        
+                    <li><span class="highlight">Crossbows</span>: stronger than most bows, but fire slower.</li>
+                </ul>
+                
+                <ul class="removePadding">
+                    <li class="mod1">Weapons appear in several different materials and styles, which determine the quality of the weapon. Higher quality
+                                     weapons do more damage (but are generally heavier). Which quality weapons you will find is generally determined based on
+                                     your character's level.
+
+                        <ul class="displayInline weaponsInline">
+                            <li>Iron</li>
+                            <li>Steel</li>
+                            <li>Silver</li>
+                            <li>Orcish</li>
+                            <li>Dwaven</li>
+                            <li>Nord Hero</li>
+                            <li>Skyforge Steel</li>
+                            <li>Nordic</li>
+                            <li>Elven</li>
+                            <li>Glass</li>
+                            <li>Stalhrim</li>
+                            <li>Ebony</li>
+                            <li>Deadric</li>
+                            <li>Dragonbone</li>
+                        </ul>
+                    </li>
+                </ul>    
+                
+                
+                
+                
+                <h2 class="topicHeader">Other Items</h2>
+                    <div>
+                        <figure>
+                            <img class="imgRight" src="assets/images/chest.gif" alt="Chest" width="224" height="163">
+                            <figcaption class="chestCaption">Chests are common and can be found all over Skyrim. They can contain anything the player can
+                                                      pick up.</figcaption>
+                        </figure>
+                        There is a HUGE list of items&mdash;magical, valuable, or mundane&mdash;available in Skyrim. These items, once collected, are added to the
+                        player's inventory and sorted into specific categories depending on the item. Items can be found just about anywhere; they can be picked
+                        up off the ground, looted from the dead, found in containers like barrels, boxes, sacks, dressers and chests, they can be given as gifts,
+                        bought, or stolen from people, shops, houses or other buildings. Beyond armor and weapons, the player will encounter entire books and
+                        notes which can be read, food and drink to be consumed, money, ingredients for making potions and more food, gems, stones, rings,
+                        necklaces, clothes, ores and ingots, scrolls, keys, brooms, cups, plates, silverware, torches, etc. The list just goes on! 
+                    </div>
+                    
+            
+            
+        </main>
+    </div>
+    </div>
+    
+    
+    
+<!--    FOOTER    -->    
+    <footer>
+        Content is available under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA 3.0</a> unless otherwise noted. Game content
+        and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved. This site is not affiliated with
+        the game publisher. byron.p.burdette@mysfcollege.edu
+    </footer>
+    
+    
+</body>
+
+
+</html>
